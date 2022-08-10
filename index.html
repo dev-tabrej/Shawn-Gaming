@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+
+
+    <title>Shawn Gaming-make gaming easy</title>
+    <!--  -->
+    <!--  -->
+    <!-- Internal CSS -->
+    <style>
+        body {
+            /* background-image:url(images/bg.jpg) ; */
+            margin: 0;
+            padding: 0;
+            background-color: rgba(0, 0, 0, 0.938);
+        }
+
+        .side-wrapper {
+            height: 900px;
+        }
+
+        .container {
+            justify-content: center;
+
+        }
+        #carouselExampleCaptions {
+            margin-top: 5px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .navbar {
+            background-color: transparent;
+            position: relative;
+            z-index: 4;
+        }
+
+        .nav-link {
+            font-size: 1.5em;
+        }
+
+        main {
+            position: absolute;
+            top: 0;
+            z-index: 0;
+            /* justify-content: center; */
+        }
+
+        #Brand {
+            float: right;
+            font-size: 2em;
+        }
+
+        footer {
+            background: hsl(0, 0%, 0%);
+        }
+
+        .section2 a:link {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 30px;
+        }
+
+        a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+
+        @media only screen and (max-device-width:360px) {
+            .side-wrapper {
+                height: 240px;
+            }
+        
+
+            .section2 a:link {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 5px;
+            }
+
+            .col-md-4 {
+                margin: 5% 0%;
+            }
+
+            #Brand {
+                float: right;
+                font-size: 2em;
+            }
+
+            .card {
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+
+        #row {
+            margin: 10px 0 10px 0;
+        }
+
+        .row {
+            justify-content: space-evenly;
+            /* margin-top: 10px; */
+        }
+'
+'
+        .row .card {
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        .row .card:hover{
+            background-color: darkslategrey;
+        }
+    </style>
+</head>
+
+<body>
+<!-- side wrappers to wrap all content of navbar -->
+    <div class="side-wrapper">
+        <header>
+            <!-- bootstrap NAVBAR -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class=" navbar-brand" href="/index.html"
+                        style="font-family: 'Hina Mincho', serif; font-size: 2em;" id="Brand">~Shawn Gaming~ </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/wwe.html">Games</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="/Rankings.html">Rankings</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <div class="row">
+            <!-- BOOTstrap carousal -->
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/images/bg2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-size: 4em;"> Hub of Games</h5>
+                                <p style="font-size: 2em;">Are you a Gaming freak.</p>
+                                <a href="/form/flex.html"><button type="button" class="btn btn-success btn-lg">JOIN US</button></a>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/bg5.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-size: 4em;"> Hub of Games</h5>
+                                <p style="font-size: 2em;">Are you a Gaming freak.</p>
+                                <a href="/form/flex.html"><button type="button" class="btn btn-success btn-lg">JOIN US</button></a>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/bh6.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-size: 4em;"> Hub of Games</h5>
+                                <p style="font-size: 2em;">Are you a Gaming freak.</p>
+                                <a href="/form/flex.html"><button type="button" class="btn btn-success btn-lg">JOIN US</button></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Cards used for news headings -->
+    <section class="section1">
+        <div class="container-fluid ">
+            <center>
+                <h1 style="color: deepskyblue;">GAMING NEWS</h1>
+            </center>
+            <div class="row col" id="row">
+                <div class="card col-md-4 " style="width: 18rem;">
+                    <a
+                        href="https://tech.hindustantimes.com/gaming/news/online-gaming-ban-is-not-the-solution-says-telangana-govt-official-71631778453264.html"><img
+                            src="/images/card1.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text"><b>Online gaming ban</b>: Telangana state officials said that they were
+                            planning
+                            to come up with new rules for online gaming and fantasy gaming that would encourage
+                            self-regulation.</p>
+                    </div>
+                </div>
+                <div class="card col-md-4" style="width: 18rem;">
+                    <a
+                        href="https://www.moneycontrol.com/news/business/companies/mpl-is-indias-latest-startup-unicorn-now-valued-at-2-3-billion-7469161.html"><img
+                            src="/images/card2.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text"><b>Gaming startup MPL</b> joins unicorn club with $2.3 billion valuation
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-md-4" style="width: 18rem;">
+                    <a href="https://www.pcgamer.com/call-of-duty-vanguard-has-a-free-open-beta-this-weekend/"><img
+                            src="/images/card3.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text"><b>Call of Duty: Vanguard has a free open beta this weekend</b>.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" id="row">
+
+                <div class="card col-md-4" style="width: 18rem;">
+                    <a href="https://tech.hindustantimes.com/how-to/how-to-use-your-fortnite-battle-stars-in-the-latest-fortnite-chapter-2-season-8-71631779332968.html"><img src="/images/card4.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text"><b>How to use your Fortnite Battle Stars in the latest Fortnite Chapter 2 Season 8</b></p>
+                    </div>
+                </div>
+                <div class="card col-md-4" style="width: 18rem;">
+                    <a href="https://tech.hindustantimes.com/how-to/how-to-install-minecraft-shaders-on-your-android-smartphone-71631805486720.html"><img src="/images/card5.webp" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text"><b>How to install Minecraft shaders on your Android smartphone</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer from bootstrap -->
+    <section class="section2">
+        <footer>
+            <div class="container" style="padding: 80px 10px;" align="center">
+                <a href="#">
+                    <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCXQmTuck8hAoJCFcWHB7qZA">
+                    <i class="fa fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+            </div>
+            <div style="background: hsl(205, 73%, 6%);">
+                <p style="color: #91BEC2; padding: 15px 0;" align="center">
+                    &copy; 2021 Copyright Shawn Gaming: <a href="mailto:webcodian@gmail.com"></a>
+                </p>
+            </div>
+        </footer>
+
+
+    </section>
+
+
+    <!-- Button trigger modal -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+</body>
+
+</html>
