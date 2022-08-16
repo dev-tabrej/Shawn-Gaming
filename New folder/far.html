@@ -88,7 +88,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: 7fr 3fr;
+            grid-template-columns: 7fr 4fr;
             background-color: rgba(0, 0, 0, 0.938);
             margin: 0;
             padding: 0;
@@ -96,8 +96,8 @@
 
         .main {
             background-color: black;
-            padding: 2%;
-            margin: 3%;
+            /* padding: 2%;
+            margin: 3%; */
         }
 
         .wwe {
@@ -107,19 +107,33 @@
         }
 
         .side {
-            display: grid;
-            grid-template-columns: 1fr;
+            display: flex;
+            flex-direction: column;
         }
         .side a:hover{
             background-color: white;
             box-shadow:5px 5px 5px blue;
             border-radius: 3px;
         }
+        
 
         @media only screen and (max-device-width:320px) {
             #Brand {
                 float: right;
                 font-size: 2em;
+            }
+            .main{
+                display: flex;
+                flex-direction: column;
+            }
+            /* .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            } */
+            .side{
+                display: flex;
+                flex-direction: column;
             }
         }
     </style>
@@ -162,7 +176,7 @@
         </header>
         <div class="grid">
             <div class="main">
-                <h2 style="margin: 2%  0 0 10%;font-family: 'Hina Mincho', serif; font-size: 2em;color: white;">\FAR CRY. NEW DAWN</h2>
+                <h2 style="margin: 2%  0 0 10%;font-family: 'Hina Mincho', serif; font-size: 2em;color: white;">FAR CRY.</h2>
                 <img class="wwe" src="/New folder/game images/far cry.jpg">
                 <p>ABOUT THE GAME :
                     Dive into a transformed vibrant post-apocalyptic Hope County, Montana,

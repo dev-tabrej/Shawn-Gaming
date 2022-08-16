@@ -11,7 +11,7 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
-
+<!-- <link rel="stylesheet" href="/bootstrap.min.css"> -->
 
     <title>Shawn Gaming-make gaming easy</title>
     <!--  -->
@@ -35,7 +35,7 @@
 
         #carouselExampleCaptions {
             margin-top: 5px;
-            width: 80%;
+            width: 200px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -50,8 +50,8 @@
             font-size: 1.5em;
         }
 
-        main {
-            position: absolute;
+        .main {
+            position: relative;
             top: 0;
             z-index: 0;
         }
@@ -88,7 +88,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: 7fr 3fr;
+            grid-template-columns: 7fr 4fr;
             background-color: rgba(0, 0, 0, 0.938);
             margin: 0;
             padding: 0;
@@ -101,7 +101,7 @@
         }
 
         .wwe {
-            width: 90%;
+            width: 80%;
             margin: 2% 5% 5% 5%;
             justify-content: center;
         }
@@ -116,10 +116,23 @@
             box-shadow:5px 5px 5px blue;
             border-radius: 3px;
         }
-        @media only screen and (max-device-width:320px) {
+        @media only screen and (max-device-width:400px) {
             #Brand {
                 float: right;
                 font-size: 2em;
+            }
+            .main{
+                display: flex;
+                flex-direction: column;
+            }
+            /* .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            } */
+            .side{
+                display: flex;
+                flex-direction: column;
             }
         }
     </style>

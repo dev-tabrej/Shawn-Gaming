@@ -15,6 +15,7 @@ form{
     flex-wrap: wrap;
     height: 100vh;
     font-size: 24px;
+    /* color: beige; */
 }
 /*0 heading*/
 h2{
@@ -23,7 +24,7 @@ h2{
     text-align: center;
     color: darkblue;
     z-index: 0;
-    font-family: 'Hina Mincho', serif;;
+    font-family: 'Hina Mincho','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*1.container*/
@@ -72,7 +73,7 @@ h2{
 .season select{
     font-size: 1em;
     margin-bottom: 1em;
-    background-color: cornsilk;
+    background-color: black;
     border-radius: 10px;
 }
 /*1.1.3.gender selection*/
@@ -120,4 +121,7 @@ h2{
     font-size: 1em;
     color: beige;
     background-color: darkblue;
+}
+input{
+    color: black;
 }

@@ -88,7 +88,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: 7fr 3fr;
+            grid-template-columns: 7fr 4fr;
             background-color: rgba(0, 0, 0, 0.938);
             margin: 0;
             padding: 0;
@@ -96,8 +96,8 @@
 
         .main {
             background-color: black;
-            padding: 2%;
-            margin: 3%;
+            /* padding: 2%;
+            margin: 3%; */
         }
 
         .wwe {
@@ -107,8 +107,8 @@
         }
 
         .side {
-            display: grid;
-            grid-template-columns: 1fr;
+            display: flex;
+            flex-direction: column;
         }
         .side a:hover{
             background-color: white;
@@ -121,6 +121,19 @@
             #Brand {
                 float: right;
                 font-size: 2em;
+            }
+            .main{
+                display: flex;
+                flex-direction: column;
+            }
+            /* .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            } */
+            .side{
+                display: flex;
+                flex-direction: column;
             }
         }
     </style>
